@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Context">
+      <UniqueIdentifier>{8541d486-934b-4992-bba9-9d7763f55105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategies">
+      <UniqueIdentifier>{0b0bf483-526c-4035-b9bc-b4537dffbe4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteStrategies">
+      <UniqueIdentifier>{fcbbad7a-ebd7-414a-b725-90c55f9ad5cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BTree.h">
+      <Filter>Context</Filter>
+    </ClInclude>
+    <ClInclude Include="BTreeNode.h">
+      <Filter>Context</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrintDataStrategy.h">
+      <Filter>Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintDataInorder.h">
+      <Filter>ConcreteStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintDataPreorder.h">
+      <Filter>ConcreteStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintDataPostorder.h">
+      <Filter>ConcreteStrategies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BTree.cpp">
+      <Filter>Context</Filter>
+    </ClCompile>
+    <ClCompile Include="BTreeNode.cpp">
+      <Filter>Context</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintDataInorder.cpp">
+      <Filter>ConcreteStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>ConcreteStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintDataPreorder.cpp">
+      <Filter>ConcreteStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintDataPostorder.cpp">
+      <Filter>ConcreteStrategies</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
